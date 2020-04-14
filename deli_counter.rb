@@ -8,7 +8,7 @@ def line(katz_deli)
       position = 1
       the_line = "The line is currently: "
       katz_deli.each do |customer|
-      the_line << "#{position}. #{customer}"
+      the_line << " #{position}. #{customer}"
       position +=1
       end
        puts the_line
