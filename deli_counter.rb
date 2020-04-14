@@ -17,6 +17,5 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-    name = gets.strip
     katz_deli << name
 end
