@@ -11,6 +11,6 @@ def line(katz_deli)
       the_line << "#{position}. #{customer} "
       position +=1
       end
+      puts the_line
     end
-    puts the_line
 end
