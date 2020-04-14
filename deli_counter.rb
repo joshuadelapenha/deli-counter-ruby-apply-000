@@ -17,6 +17,6 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-    new_person = gets.strip
-    katz_deli << new_person
+    name = gets.strip
+    katz_deli << name
 end
